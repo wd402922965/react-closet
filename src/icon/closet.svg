@@ -1,0 +1,18 @@
+<svg
+        viewBox="0 0 1024 1024"
+        width="24"
+        height="24"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <path d="M180 120h664v784H180V120z" stroke="pink" stroke-width="40" fill="none" />
+    <path d="M180 320h664" stroke="pink" stroke-width="40" />
+    <path d="M512 120v784" stroke="pink" stroke-width="40" />
+    <circle cx="730" cy="480" r="20" fill="pink" />
+    <circle cx="730" cy="580" r="20" fill="pink" />
+    <path d="M260 200h160v240h-160z" stroke="pink" stroke-width="30" fill="none" />
+    <path d="M340 260l-40 80h80z" fill="pink" />
+    <path d="M260 880q0-20 20-20h160q20 0 20 20" stroke="pink" stroke-width="40" fill="none" />
+    <path d="M300 60q40 0 80 40 40-40 80-40" stroke="pink" stroke-width="30" fill="none" />
+    <path d="M380 60q20 30 20 80" stroke="pink" stroke-width="30" fill="none" />
+</svg>
