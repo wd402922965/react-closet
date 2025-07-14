@@ -1,0 +1,23 @@
+.login {
+  display: flex;
+  justify-content: center;   // 水平居中
+  align-items: center;       // 垂直居中
+  height: 100vh;             // 撑满整个视口高度
+
+  background-image: url('../../assets/loginBcakground.png'); // 你项目中的图片路径
+  background-size: cover;       // 背景铺满容器
+  background-position: center;  // 背景居中
+  background-repeat: no-repeat; // 不重复
+
+}
+
+
+.title .ant-card-head-title {
+  color: pink;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.messageCls .ant-card-head-title{
+  font-size: 20px;
+}

@@ -1,0 +1,16 @@
+{
+  "userData": [{
+    "email":"123456@gmail.com",
+    "password": "123456",
+    "userId": "123456"
+  },
+    {
+      "email":"654321@gmail.com",
+      "password": "654321",
+      "userId": "654321"
+    }
+  ],
+  "authorizations":{
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxMjM0NTYiLCJ1c2VybmFtZSI6InRlc3R1c2VyIiwiZXhwIjoxNzAwMDAwMDAwfQ.D4c7bK8sEqKjf7xYZ4O9vABU6JdjQxKoN_bM35JYu6I"
+  }
+}
