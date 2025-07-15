@@ -1,11 +1,11 @@
-import {createBrowserRouter} from "react-router-dom";
+import {createBrowserRouter, Navigate} from "react-router-dom";
 import Layout from "@/pages/Layout";
 import Login from "@/pages/Login";
 import {AuthRoute} from "@/components/AuthRoute";
-import Closet from "@/pages/Layout/Closet/closet";
+import Index from "@/pages/Layout/Closet";
 
 import Deposit from "@/pages/Layout/Deposit";
-import New from "@/pages/Layout/New";
+import NewArrival from "src/pages/Layout/NewArrival";
 import Me from "src/pages/Layout/Me";
 
 const router = createBrowserRouter([
@@ -14,8 +14,12 @@ const router = createBrowserRouter([
         element: <AuthRoute><Layout/></AuthRoute>,
         children: [
             {
+                path: '',
+                element: <Navigate to="newArrival" />
+            },
+            {
                 path: 'closet',
-                element: <Closet/>
+                element: <Index/>
             },
             {
                 path: 'Me',
@@ -26,8 +30,8 @@ const router = createBrowserRouter([
                 element: <Deposit/>
             },
             {
-                path: 'new',
-                element: <New/>
+                path: 'newArrival',
+                element: <NewArrival/>
             }
         ]
     },

@@ -12,5 +12,81 @@
   ],
   "authorizations":{
       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxMjM0NTYiLCJ1c2VybmFtZSI6InRlc3R1c2VyIiwiZXhwIjoxNzAwMDAwMDAwfQ.D4c7bK8sEqKjf7xYZ4O9vABU6JdjQxKoN_bM35JYu6I"
-  }
+  },
+  "imageList": [
+    {
+      "url": "https://angelicpretty.com/Contents%2fFeature%2f25dream-marine.jpg",
+      "type" : "deposit"
+    },
+    {
+      "url": "https://angelicpretty.com/Contents%2fFeature%2f0621PC.jpg",
+      "type" : "deposit"
+    },
+    {
+      "url": "https://angelicpretty.com/Contents%2fFeature%2f25Summer_PC.jpg",
+      "type" : "deposit"
+    },
+    {
+      "url": "https://angelicpretty.com/Contents%2fFeature%2f25ohanami.jpg",
+      "type" : "deposit"
+    },
+    {
+      "url": "https://angelicpretty.com/Contents%2fFeature%2f0712PC.jpg",
+      "type" : "finalPay"
+    },
+    {
+      "url": "https://angelicpretty.com/Contents%2fFeature%2f0621PC.jpg",
+      "type" : "finalPay"
+    },
+    {
+      "url": "https://angelicpretty.com/Contents%2fFeature%2f25Summer_PC.jpg",
+      "type" : "finalPay"
+    },
+    {
+      "url": "https://angelicpretty.com/Contents%2fFeature%2f25ohanami.jpg",
+      "type" : "finalPay"
+    }
+  ],
+  "myClosetList": [
+    {
+      "id": "12345",
+      "name": "兔熊情人节",
+      "brand": "BABY, THE STARS SHINE BRIGHT",
+      "price": "2200",
+      "date": "2025-07-15",
+      "tag": "jsk,现货",
+      "country":"jp",
+      "imagUrl": "https://store.babyssb.co.jp/cdn/shop/files/B49OJ207_MT-01.jpg?v=1743505393&width=493"
+    },
+    {
+      "id": "12347",
+      "name": "25草莓",
+      "brand": "BABY, THE STARS SHINE BRIGHT",
+      "price": "2200",
+      "date": "2025-06-15",
+      "tag": "jsk,现货",
+      "country":"jp",
+      "imagUrl": "https://store.babyssb.co.jp/cdn/shop/files/B49OJ209_BK-01.jpg?v=1745904653&width=480"
+    },
+    {
+      "id": "12346",
+      "name": "贝壳",
+      "brand": "angelicPretty",
+      "price": "2000",
+      "date": "2024-06-15",
+      "tag": "jsk,现货",
+      "country":"jp",
+      "imagUrl": "https://angelicpretty.com/Contents/Feature/dmjskwh.jpg"
+    },
+    {
+      "id": "12348",
+      "name": "快乐蛋糕",
+      "brand": "angelicPretty",
+      "price": "2000",
+      "date": "2025-06-03",
+      "tag": "jsk,现货",
+      "country":"jp",
+      "imagUrl": "https://angelicpretty.com/Contents/ProductImages/0/252PJ04-020664_var-01-wh_LL.jpg"
+    }
+  ]
 }

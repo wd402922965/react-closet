@@ -9,7 +9,8 @@ const userStore = createSlice({
     name: 'user',
     //初始状态
     initialState:{
-        token:getToken() || ''
+        token:getToken() || '',
+        userId:''
     },
     //同步修改方法
     reducers:{
@@ -17,11 +18,15 @@ const userStore = createSlice({
             state.token = action.payload;
             //localstorage存一份
             _setToken(action.payload);
+        },
+        setUserId(state,action){
+            debugger;
+            state.userId = action.payload;
         }
     }
 })
 
-const {setToken} = userStore.actions;
+const {setToken,setUserId} = userStore.actions;
 
 const userReducer = userStore.reducer;
 
@@ -35,5 +40,5 @@ function fetchLogin(loginForm){
     }
 }
 
-export {setToken,fetchLogin};
+export {setToken,fetchLogin,setUserId};
 export default userReducer;

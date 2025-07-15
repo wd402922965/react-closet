@@ -1,7 +1,7 @@
 import {Card, Space, Form, Button, Input, message} from 'antd';
 import './index.scss';
 import {useDispatch} from "react-redux";
-import {fetchLogin} from "@/store/modules/user";
+import {fetchLogin,setUserId} from "@/store/modules/user";
 import {useNavigate} from "react-router-dom";
 
 
@@ -17,7 +17,11 @@ function Login(){
         message.success({
             className:"messageCls",
             content:"login successful!"
-        }).then(() => navigate('/'));
+        }).then(() => {
+            //登陆成功后放置userId
+            dispatch(setUserId('1111'));
+            navigate('/')
+        })
     };
     //表单登陆失败
     const onFinishFailed = values => {

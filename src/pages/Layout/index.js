@@ -12,7 +12,7 @@ import {
 
 const tabs = [
     {
-        key: '/new',
+        key: '/newArrival',
         title: '今日上新',
         icon: <StarOutline style={{ width: 24, height: 24, color: 'pink' }}/>,
     },

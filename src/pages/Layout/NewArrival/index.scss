@@ -1,17 +1,8 @@
-/* 整体容器适配手机 */
-.carousel-wrapper {
-  width: 100vw;
-  max-width: 480px;
-  margin: 0 auto;
-  padding: 20px 12px;
-  font-family: 'Segoe UI', cursive;
-}
 
 /* 每段标题+轮播块 */
 .carousel-section {
-  margin-bottom: 28px;
   text-align: center;
-  margin-right: 25px;
+  margin:0 auto;
 }
 
 /* 标题样式 */
