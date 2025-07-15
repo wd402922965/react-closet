@@ -1,4 +1,4 @@
-import {Outlet, useNavigate} from "react-router-dom";
+import {Outlet, useLocation, useNavigate} from "react-router-dom";
 import { TabBar } from 'antd-mobile'
 import { ReactComponent as ClosetIcon } from "@/icon/closet.svg";
 
@@ -36,6 +36,9 @@ const tabs = [
 function Layout(){
     const navigate = useNavigate();
 
+    const location = useLocation(); // ← 关键：获取当前路径
+    const { pathname } = location;
+
     const switchRoute = (path) =>{
         navigate(path);
     }
@@ -46,9 +49,9 @@ function Layout(){
                 <Outlet/>
             </div>
             <div className="footer">
-                <TabBar onChange={switchRoute}>
+                <TabBar onChange={switchRoute} activeKey={pathname}>
                     {tabs.map(item => (
-                        <TabBar.Item key={item.key} icon={item.icon} title={item.title}/>
+                        <TabBar.Item key={item.key} icon={item.icon} title={item.title} />
                     ))}
                 </TabBar>
             </div>
