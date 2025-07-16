@@ -56,7 +56,7 @@ function Closet() {
                     </Card>
                 )}
             </div>
-            <Bubble/>
+            <Bubble closetList={closetList} onFilter={handleFilterClosetList}/>
         </div>
     );
 }

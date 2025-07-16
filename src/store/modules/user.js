@@ -3,6 +3,7 @@
 import {createSlice} from "@reduxjs/toolkit";
 import {request} from '@/utils';
 import {getToken,setToken as _setToken} from "@/utils";
+import {getUserId} from "@/utils/token";
 
 
 const userStore = createSlice({
@@ -10,17 +11,16 @@ const userStore = createSlice({
     //初始状态
     initialState:{
         token:getToken() || '',
-        userId:''
+        userId:getUserId() || ''
     },
     //同步修改方法
     reducers:{
         setToken(state,action){
             state.token = action.payload;
             //localstorage存一份
-            _setToken(action.payload);
+            _setToken(action.payload,'1111');
         },
         setUserId(state,action){
-            debugger;
             state.userId = action.payload;
         }
     }

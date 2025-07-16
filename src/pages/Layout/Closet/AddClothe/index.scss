@@ -1,0 +1,71 @@
+.AddClotheContainer {
+  background-color: #fff0f5; // 粉色背景（淡雅风格）
+  padding: 10px 20px 20px;
+  height: 100%;
+  .adm-divider {
+    font-size: 16px;
+  }
+
+  .adm-form {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  .adm-list-body{
+    font-size:small;
+  }
+
+  .adm-list-item-content-main {
+    flex: auto;
+    padding: 10px 0;
+  }
+
+  .adm-form-item {
+    margin-bottom: 10px;
+
+    .adm-form-item-label {
+      color: #333;
+    }
+
+    .adm-input,
+    .adm-text-area {
+      background-color: #fff;
+      border: 1px solid #f3cfe7;
+      border-radius: 8px;
+    }
+  }
+
+  .adm-image-uploader {
+    margin-bottom: 24px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .adm-image-uploader-cell {
+      border: 2px dashed #f3cfe7;
+      border-radius: 12px;
+    }
+
+    .adm-image-uploader-img {
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+
+  .adm-button {
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+
+  }
+
+  .ant-btn-block{
+    background-color: pink;
+    color: white;
+  }
+  .adm-form-footer{
+    padding: 0 0;
+  }
+}
+
+
